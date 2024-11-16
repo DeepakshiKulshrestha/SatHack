@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Natural Disasters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Blue Ribbon at the Top -->
+    <div class="blue-ribbon">
+        <h1>Natural Disasters and Precautions</h1>
+        <p class="tagline">CONNECTING PEOPLE, SAVING LIVES</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <section class="disaster">
+            <h2>Why Disaster Management?</h2>
+            <p>India is one of the most disaster-prone countries in the world. Every year millions of Indians are affected by natural disasters...</p>
+        </section>
+
+        <div class="disasters">
+            <!-- Earthquake Section -->
+            <section class="disaster-card">
+                <h3>Earthquake</h3>
+                <img src="earthquake.jpg" alt="Earthquake" class="disaster-img">
+                <p><strong>Description:</strong> Earthquakes are sudden and violent shaking of the ground, caused by movement of tectonic plates...</p>
+                <p><strong>Precautions:</strong> Drop, Cover, and Hold On. Stay indoors, away from windows, and protect your head.</p>
+            </section>
+
+            <!-- Flood Section -->
+            <section class="disaster-card">
+                <h3>Flood</h3>
+                <img src="flood.jpg" alt="Flood" class="disaster-img">
+                <p><strong>Description:</strong> Floods occur when water levels rise above normal, inundating areas that are usually dry...</p>
+                <p><strong>Precautions:</strong> Move to higher ground. Avoid walking or driving through flooded areas.</p>
+            </section>
+
+            <!-- Hurricane Section -->
+            <section class="disaster-card">
+                <h3>Hurricane</h3>
+                <img src="hurricane.jpg" alt="Hurricane" class="disaster-img">
+                <p><strong>Description:</strong> A hurricane is a powerful tropical storm with strong winds and heavy rain...</p>
+                <p><strong>Precautions:</strong> Stay indoors in a sturdy building, away from windows. Keep emergency supplies on hand.</p>
+            </section>
+
+            <!-- Wildfire Section -->
+            <section class="disaster-card">
+                <h3>Wildfire</h3>
+                <img src="wildfire.jpg" alt="Wildfire" class="disaster-img">
+                <p><strong>Description:</strong> A wildfire is an uncontrolled and unpredictable fire in an area of combustible vegetation...</p>
+                <p><strong>Precautions:</strong> Evacuate early if advised. Stay in a safe, cleared area, and avoid breathing smoke.</p>
+            </section>
+        </div>
+    </div>
+
+    <section class="what-we-do">
+        
+        <div class="cards">
+            <div class="card">
+                <img src="vest-icon.png" alt="Disaster Relief Icon" class="icon">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Icons -->
+    <footer class="footer">
+        <div class="social-icons">
+            <!-- Instagram Icon -->
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- Email Icon -->
+            <a href="mailto:your-email@example.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Cartoon Robot Chatbot -->
+    <div id="chatbot" class="chatbot">
+        <button onclick="toggleChat()" class="robot-btn">
+            <img src="robot-icon.png" alt="Robot Icon" class="robot-icon">
+        </button>
+        <iframe class="chatbot-main" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/301cb276-69bb-4435-ba39-7616d87b540b"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
